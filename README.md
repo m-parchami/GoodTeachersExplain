@@ -17,7 +17,7 @@ Good Teachers Explain: Explanation-Enhanced Knowledge Distillation
 </p>
   
 <h3 align="center">
-<a href="https://arxiv.org/abs/2402.03119v1">Arxiv preprint</a>
+<a href="https://arxiv.org/abs/2402.03119v2">Arxiv preprint</a>
 </h3>
 </p>
 
