@@ -1,5 +1,5 @@
 Update: A newer version of our work just got accepted to ECCV 2024! 🥳
-I'll try to update the Arxiv and also the Github asap...
+Code will be released by October 20th.
 
 <p align="center">
 <h1 align="center">
