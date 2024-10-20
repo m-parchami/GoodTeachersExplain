@@ -27,6 +27,15 @@ Good Teachers Explain: Explanation-Enhanced Knowledge Distillation
 This codebase was adapted from [B-cos-v2 Codebase](https://github.com/B-cos/B-cos-v2). It is based on Pytorch Lightning and comes with several useful features such as Distributed Data Parallel, Slurm integration (via submitit), and WandB logging. I therefore changed the codebase to work for our distillation setting. That means, the overall codebase is not fully optimized for KD and if you are looking for a distillation codebase, I strongly suggest popular codebases such as [Torchdistill](https://github.com/yoshitomo-matsubara/torchdistill). Please also refer only to [B-cos-v2 Codebase](https://github.com/B-cos/B-cos-v2) for the most up-to-date implementation on B-cos Networks.
 
 
+# Getting Started
+
+After cloning the repo, please download the teacher checkpoints using the following: 
+```bash
+bash download_teachers.sh
+```
+Afterwards, refer to `run.sh` for sample training commands. You would need to adjust the dataset paths at beginning of the script.
+
+
 # Important files
 Most of the essential implementations of our method can be found under `bcos/distillation_methods/TeachersExplain.py`.
 
